@@ -5,7 +5,6 @@
             type: '',
             dismissible: true,
             title: '',
-            subtitle: '',
             message: '',
             clear: true
         }, options);
@@ -23,11 +22,6 @@
         if (settings.title.length > 0) {
             var title = $('<h4>').html(settings.title);
             $(title).appendTo(div);
-        }
-
-        if (settings.subtitle.length > 0) {
-            var subtitle = $('<strong>').html(settings.subtitle);
-            $(subtitle).appendTo(div);
         }
 
         $(div).append(settings.message);
