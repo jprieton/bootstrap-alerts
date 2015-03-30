@@ -21,12 +21,12 @@
         }
 
         if (settings.title.length > 0) {
-            var title = $('<h4>').text(settings.title);
+            var title = $('<h4>').html(settings.title);
             $(title).appendTo(div);
         }
 
         if (settings.subtitle.length > 0) {
-            var subtitle = $('<strong>').text(settings.subtitle + ': ');
+            var subtitle = $('<strong>').html(settings.subtitle);
             $(subtitle).appendTo(div);
         }
 

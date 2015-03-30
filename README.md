@@ -8,11 +8,11 @@ Usage
 
 $('#alert-container').bootstrapAlert({
       type: 'success',
-      dismissible: true, // default: true
-      title: 'My Title',
-      subtitle: 'My subtitle',
+      dismissible: true,  // optional, default: true
+      title: 'My Title', // optional
+      subtitle: 'My subtitle', // optional
       message: 'My message.',
-      clear: true // default: true
+      clear: true // optional, default: true
 });
 
 ```
