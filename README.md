@@ -25,10 +25,10 @@ Options
 required, `success`, `info`, `warning` or `danger`
 
 ###dismissible
-optional, default: `true`*
+optional, default: `true`
 
 ###title
-optional, default: `null`*
+optional, default: `null`
 
 ###message
 required
