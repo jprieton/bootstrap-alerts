@@ -1,4 +1,4 @@
-jQuery Bootstrap Alerts plugin
+Bootstrap Alerts v1.0.0
 ===========
 
 A jQuery plugin for displaying Bootstrap alerts.
@@ -7,31 +7,16 @@ Usage
 ---
 
 ```javascript
-
 $('#alert-container').bootstrapAlert({
-      type: 'success',
-      dismissible: true,
-      title: 'My Title',
-      message: 'My message.',
-      clear: true
+    type: 'success', // Required, values: 'success', 'info', 'warning' or 'danger'
+    dismissible: true, // Optional, default: true 
+    title: 'My Title', // Optional, default: null
+    message: 'My message.',  // Required,
+    clear: true // Optional, default: true 
 });
-
 ```
 
-Options
+License
 ---
 
-###type
-required, `success`, `info`, `warning` or `danger`
-
-###dismissible
-optional, default: `true`
-
-###title
-optional, default: `null`
-
-###message
-required
-
-###clear
-optional, default: `true`
+Licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)

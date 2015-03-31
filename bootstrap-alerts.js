@@ -1,13 +1,32 @@
+/*
+ * Bootstrap Alerts v1.0.0, jQuery plugin
+ *
+ * Copyright(c) 2015, Javier Prieto
+ * https://github.com/jprieton/bootstrap-alerts
+ * 
+ * A jQuery plugin for displaying Bootstrap alerts.
+ * Licensed under the MIT License
+ */
 (function ($) {
     $.fn.bootstrapAlert = function (options) {
 
         var settings = $.extend({
-            type: '',
+            type: null,
             dismissible: true,
-            title: '',
+            title: null,
             message: '',
             clear: true
         }, options);
+
+        if (settings.type.lenght === 0) {
+            console.log('bootstrapAlert: type is empty');
+            return false;
+        }
+
+        if (settings.message.lenght === 0) {
+            console.log('bootstrapAlert: message is empty');
+            return false;
+        }
 
         var div = $('<div class="alert alert-' + settings.type + '" role="alert">');
 
