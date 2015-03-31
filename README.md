@@ -21,21 +21,17 @@ $('#alert-container').bootstrapAlert({
 Options
 ---
 
-###type *required*
- Type of Bootstrap alert, ie: *`success`, `info`, `warning` or `danger`*
+###type
+required, `success`, `info`, `warning` or `danger`
 
 ###dismissible
-Enable the dismissible alerts functionality
-*optional, default: `true`*
+optional, default: `true`*
 
 ###title
-Title of alert box
-*optional, default: `null`*
+optional, default: `null`*
 
 ###message
-Message in alert box
-*required*
+required
 
 ###clear
-Clear the alert container.
-*optional, default: `true`*
+optional, default: `true`
