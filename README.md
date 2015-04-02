@@ -1,4 +1,4 @@
-Bootstrap Alerts v1.0.0
+Bootstrap Alerts v1.0.1
 ===========
 
 A jQuery plugin for displaying Bootstrap alerts.
@@ -10,9 +10,9 @@ Usage
 $('#alert-container').bootstrapAlert({
     type: 'success', // Required, values: 'success', 'info', 'warning' or 'danger'
     dismissible: true, // Optional, default: true 
-    title: 'My Title', // Optional, default: null
+    title: 'My Title', // Optional, default: ''
     message: 'My message.',  // Required,
-    clear: true // Optional, default: true 
+    clear: true // Optional, Clears the container, default: true 
 });
 ```
 
