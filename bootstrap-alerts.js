@@ -1,5 +1,5 @@
 /*
- * Bootstrap Alerts v1.0.0, jQuery plugin
+ * Bootstrap Alerts v1.0.1, jQuery plugin
  *
  * Copyright(c) 2015, Javier Prieto
  * https://github.com/jprieton/bootstrap-alerts
