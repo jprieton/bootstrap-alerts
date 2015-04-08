@@ -13,7 +13,7 @@
         var settings = $.extend({
             type: null,
             dismissible: true,
-            title: null,
+            title: '',
             message: '',
             clear: true
         }, options);
