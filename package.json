@@ -1,0 +1,28 @@
+{
+    "name": "bootstrap-alerts",
+    "version": "1.0.2",
+    "description": "A jQuery plugin for displaying Bootstrap alerts.",
+    "main": "bootstrap-alerts.js",
+    "keywords": [
+        "bootstrap",
+        "alert",
+        "jquery-plugin",
+        "ecosystem:jquery"
+    ],
+    "homepage": "http://jprieton.github.io/bootstrap-alerts/",
+    "author": {
+        "name": "Javier Prieto",
+        "url": "https://github.com/jprieton"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jprieton/bootstrap-alerts.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jprieton/bootstrap-alerts/issues"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/mit-license.html"
+    }
+}
