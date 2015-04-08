@@ -2,7 +2,7 @@
  * Bootstrap Alerts v1.0.1, jQuery plugin
  *
  * Copyright(c) 2015, Javier Prieto
- * https://github.com/jprieton/bootstrap-alerts
+ * http://jprieton.github.io/bootstrap-alerts/
  * 
  * A jQuery plugin for displaying Bootstrap alerts.
  * Licensed under the MIT License
