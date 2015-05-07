@@ -1,7 +1,7 @@
 Bootstrap Alerts v1.0.1
 ===========
 
-A jQuery plugin for displaying Bootstrap alerts. [Demo](jprieton.github.io/bootstrap-alerts)
+A jQuery plugin for displaying Bootstrap alerts. [Demo](http://jprieton.github.io/bootstrap-alerts)
 
 Usage
 ---
