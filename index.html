@@ -43,33 +43,39 @@
 				$('#success-alert').click(function () {
 					$('#alert-container').bootstrapAlert({
 						type: 'success',
-						message: 'This is a <b>success</b> alert.'
+						message: 'This is a <b>success</b> message.'
 					});
 				});
+				$('#info-alert').click(function () {
+					$('#alert-container').bootstrapAlert({
+						type: 'info',
+						message: 'This is a <b>info</b> message.'
+					});
+				});				
 				$('#warning-alert').click(function () {
 					$('#alert-container').bootstrapAlert({
 						type: 'warning',
-						message: 'This is a <b>warning</b> alert.'
+						message: 'This is a <b>warning</b> message.'
 					});
 				});
 				$('#danger-alert').click(function () {
 					$('#alert-container').bootstrapAlert({
 						type: 'danger',
-						message: 'This is a <b>danger</b> alert.'
+						message: 'This is a <b>danger</b> message.'
 					});
 				});
 				$('#info-alert-title').click(function () {
 					$('#alert-container').bootstrapAlert({
 						type: 'info',
 						title: 'My title',
-						message: 'This is a <b>info</b> alert with title.'
+						message: 'This is a <b>info</b> message with title.'
 					});
 				});
 				$('#info-alert-no-clear').click(function () {
 					$('#alert-container').bootstrapAlert({
 						type: 'info',
 						clear: false,
-						message: 'This is a <b>info</b> alert without clear container.'
+						message: 'This is a <b>info</b> message without clear container.'
 					});
 				});
 			</script>
