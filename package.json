@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/jprieton/bootstrap-alerts/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/mit-license.html"
-  }
+  "license":  "MIT"
 }
