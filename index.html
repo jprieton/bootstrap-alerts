@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>Bootstrap-alerts by jprieton</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Bootstrap Alerts by jprieton</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="jQuery Bootstrap Alerts">
+    <meta property="og:url" content="http://jprieton.github.io/bootstrap-alerts/">
+    <meta property="og:description " content="A jQuery plugin for displaying Bootstrap alerts">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--[if lt IE 9]>
          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->		
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <div class="jumbotron">
       <div class="container">
-        <h1>Bootstrap-alerts v1.2.0</h1>
-        <p>A jQuery plugin for displaying Bootstrap alerts</p>
+        <h1 itemprop="name">jQuery Bootstrap Alerts</h1>
+        <p itemprop="description">A jQuery plugin for displaying Bootstrap alerts</p>
         <p>
           <a href="https://github.com/jprieton/bootstrap-alerts" class="btn btn-primary">View on GitHub</a>
           <a href="https://github.com/jprieton/bootstrap-alerts/archive/1.2.0.zip" class="btn btn-primary">Download .zip</a>
@@ -26,23 +33,23 @@
     <div class="container">
       <h2>Basic usage</h2>
 
-      <pre><code>jQuery('#alert-container').bootstrapAlert({
+      <pre><code itemscope itemtype="http://schema.org/Code">jQuery('#alert-container').bootstrapAlert({
   message: 'This is a info message.',
 });</code></pre>
       <h2>Examples</h2>
       <div id="alert-container"></div>
       <div>
-        <a class="btn btn-default" id="default-alert">Default</a>
-        <a class="btn btn-success" id="success-alert">Success</a>
-        <a class="btn btn-info" id="info-alert">Info</a>
-        <a class="btn btn-warning" id="warning-alert">Warning</a>
-        <a class="btn btn-danger" id="danger-alert">Danger</a>
-        <a class="btn btn-default" id="alert-heading">With heading</a>
-        <a class="btn btn-default" id="alert-no-clear">Without clear</a>
-        <a class="btn btn-default" id="alert-glyphicons">With Glyphicons</a>
+        <button type="button" class="btn btn-default" id="default-alert">Default</button>
+        <button type="button" class="btn btn-success" id="success-alert">Success</button>
+        <button type="button" class="btn btn-info" id="info-alert">Info</button>
+        <button type="button" class="btn btn-warning" id="warning-alert">Warning</button>
+        <button type="button" class="btn btn-danger" id="danger-alert">Danger</button>
+        <button type="button" class="btn btn-default" id="alert-heading">With heading</button>
+        <button type="button" class="btn btn-default" id="alert-no-clear">Without clear</button>
+        <button type="button" class="btn btn-default" id="alert-glyphicons">With Glyphicons</button>
       </div>
       <h2>Code</h2>
-      <pre><code>&lt;script>
+      <pre><code itemscope itemtype="http://schema.org/Code">&lt;script>
   // Default usage
   $('#default-alert').click(function () {
     $('#alert-container').bootstrapAlert({
@@ -233,4 +240,3 @@
 
   </body>
 </html>
-
