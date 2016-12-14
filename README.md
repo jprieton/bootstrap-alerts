@@ -1,4 +1,4 @@
-Bootstrap Alerts v1.0.1
+Bootstrap Alerts v1.2.0
 ===========
 
 A jQuery plugin for displaying Bootstrap alerts. [Demo](http://jprieton.github.io/bootstrap-alerts)
@@ -8,9 +8,9 @@ Usage
 
 ```javascript
 $('#alert-container').bootstrapAlert({
-    type: 'success', // Required, values: 'success', 'info', 'warning' or 'danger'
+    type: 'success', // Optional, , default: 'info',  values: 'success', 'info', 'warning' or 'danger'
     dismissible: true, // Optional, default: true 
-    title: 'My Title', // Optional, default: ''
+    heading: 'My Heading', // Optional, default: ''
     message: 'My message.',  // Required,
     clear: true // Optional, Clears the container, default: true 
 });

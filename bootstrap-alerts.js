@@ -1,5 +1,5 @@
 /*
- * Bootstrap Alerts v1.0.2, jQuery plugin
+ * Bootstrap Alerts v1.2.0, jQuery plugin
  *
  * Copyright(c) 2015, Javier Prieto
  * http://jprieton.github.io/bootstrap-alerts/
@@ -8,49 +8,51 @@
  * Licensed under the MIT License
  */
 (function ($) {
-    $.fn.bootstrapAlert = function (options) {
+  'use strict';
 
-        var settings = $.extend({
-            type: null,
-            dismissible: true,
-            title: '',
-            message: '',
-            clear: true
-        }, options);
+  $.fn.bootstrapAlert = function (options) {
 
-        if (settings.type.lenght === 0) {
-            console.log('bootstrapAlert: type is empty');
-            return false;
-        }
+    var settings = $.extend({
+      type: 'info',
+      dismissible: true,
+      heading: '',
+      message: '',
+      clear: true
+    }, options);
 
-        if (settings.message.lenght === 0) {
-            console.log('bootstrapAlert: message is empty');
-            return false;
-        }
+    if (settings.type.lenght === 0) {
+      console.log('bootstrapAlert: type is empty');
+      return false;
+    }
 
-        var div = $('<div class="alert alert-' + settings.type + '" role="alert">');
+    if (settings.message.lenght === 0) {
+      console.log('bootstrapAlert: message is empty');
+      return false;
+    }
 
-        if (settings.dismissible) {
-            $(div).addClass('alert-dismissible');
-            var button = $('<button type="button" class="close" data-dismiss="alert" aria-label="Close">');
-            var span = $('<span aria-hidden="true">').html('&times;');
-            $(span).appendTo(button);
-            $(button).appendTo(div);
-        }
+    var div = $('<div class="alert alert-' + settings.type + '" role="alert">');
 
-        if (settings.title.length > 0) {
-            var title = $('<h4>').html(settings.title);
-            $(title).appendTo(div);
-        }
+    if (settings.dismissible) {
+      $(div).addClass('alert-dismissible');
+      var button = $('<button type="button" class="close" data-dismiss="alert" aria-label="Close">');
+      var span = $('<span aria-hidden="true">').html('&times;');
+      $(span).appendTo(button);
+      $(button).appendTo(div);
+    }
 
-        $(div).append(settings.message);
+    if (settings.heading.length > 0) {
+      var heading = $('<h4 class="alert-heading">').html(settings.heading);
+      $(heading).appendTo(div);
+    }
 
-        if (settings.clear) {
-            $(this).empty();
-        }
+    $(div).append(settings.message);
 
-        $(div).appendTo(this);
+    if (settings.clear) {
+      $(this).empty();
+    }
 
-        return this;
-    };
+    $(div).appendTo(this);
+
+    return this;
+  };
 })(jQuery);

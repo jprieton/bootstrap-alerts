@@ -1,6 +1,6 @@
 {
     "name": "bootstrap-alerts",
-    "version": "1.0.2",
+    "version": "1.2.0",
     "description": "A jQuery plugin for displaying Bootstrap alerts.",
     "main": "bootstrap-alerts.js",
     "keywords": [
