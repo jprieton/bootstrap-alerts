@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-alerts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A jQuery plugin for displaying Bootstrap alerts.",
   "main": "bootstrap-alerts.js",
   "keywords": [
@@ -21,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/jprieton/bootstrap-alerts/issues"
   },
-  "license":  "MIT"
+  "license": "MIT"
 }
