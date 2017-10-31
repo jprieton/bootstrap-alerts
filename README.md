@@ -1,4 +1,4 @@
-Bootstrap Alerts v1.2.0
+Bootstrap Alerts v1.2.2
 ===========
 
 A jQuery plugin for displaying Bootstrap alerts. [Demo](http://jprieton.github.io/bootstrap-alerts)
@@ -20,3 +20,8 @@ License
 ---
 
 Licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
+
+Bug tracker
+---
+
+Have a bug? Please create an issue on GitHub at https://github.com/jprieton/bootstrap-alerts/issues

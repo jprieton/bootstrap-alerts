@@ -1,5 +1,5 @@
 /*
- * Bootstrap Alerts v1.2.0, jQuery plugin
+ * Bootstrap Alerts v1.2.2, jQuery plugin
  *
  * Copyright(c) 2015, Javier Prieto
  * http://jprieton.github.io/bootstrap-alerts/
@@ -20,12 +20,12 @@
       clear: true
     }, options);
 
-    if (settings.type.lenght === 0) {
+    if (settings.type.length === 0) {
       console.log('bootstrapAlert: type is empty');
       return false;
     }
-
-    if (settings.message.lenght === 0) {
+    
+    if (settings.message.length === 0) {
       console.log('bootstrapAlert: message is empty');
       return false;
     }
